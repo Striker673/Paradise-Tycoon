@@ -102,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3988826048591864033}
   - component: {fileID: 6101654184506420141}
+  - component: {fileID: 6415393557844125590}
   m_Layer: 0
   m_Name: Hotel_L1
   m_TagString: Untagged
@@ -138,3 +139,36 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &6415393557844125590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7623917050538227743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: hotel
+  displayName: Hotel
+  visual: {fileID: 5263969615805524477}
+  construction: {fileID: 0}
+  levels:
+  - cost: 0
+    capacity: 8
+    secondsPerRequest: 6
+    sprite: {fileID: -3073808484279037695, guid: 9828d1cef0da9004daa1561e4909316f, type: 3}
+  - cost: 450
+    capacity: 10
+    secondsPerRequest: 5.1
+    sprite: {fileID: -3945339706189673420, guid: 81a9b4cbd4839af429b18c86bbcab26d, type: 3}
+  - cost: 900
+    capacity: 12
+    secondsPerRequest: 4.2
+    sprite: {fileID: -3369625716004365257, guid: 560a4c20f1e29ff49aa684b54562e2a5, type: 3}
+  - cost: 1350
+    capacity: 14
+    secondsPerRequest: 3.3
+    sprite: {fileID: 6139665126440973987, guid: 6e0896d29b746a644b7c303eaa43ad5d, type: 3}

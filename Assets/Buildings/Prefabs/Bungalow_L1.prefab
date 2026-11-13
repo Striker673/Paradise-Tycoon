@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3021351492088048770}
   - component: {fileID: 5487389115085848189}
+  - component: {fileID: 2214357831381385957}
   m_Layer: 0
   m_Name: Bungalow_L1
   m_TagString: Untagged
@@ -47,6 +48,39 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &2214357831381385957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2449626076427552517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: bungalow
+  displayName: Bungalov
+  visual: {fileID: 6304274855087062965}
+  construction: {fileID: 1614826366608552956}
+  levels:
+  - cost: 0
+    capacity: 4
+    secondsPerRequest: 6
+    sprite: {fileID: -487730466540038477, guid: 93cf90fc56f97f34ebdd117d2a65b22d, type: 3}
+  - cost: 400
+    capacity: 6
+    secondsPerRequest: 5.1
+    sprite: {fileID: -1644363923227934784, guid: abd36a137e3ed8748984aeb1839d58e1, type: 3}
+  - cost: 800
+    capacity: 8
+    secondsPerRequest: 4.2
+    sprite: {fileID: -6617644364692579482, guid: da61e1e21c064e04ba88a5f0d930e017, type: 3}
+  - cost: 1200
+    capacity: 10
+    secondsPerRequest: 3.3
+    sprite: {fileID: 7398840686125615371, guid: 102401df3d35bd9479247f4714aee215, type: 3}
 --- !u!1 &3625748653003231885
 GameObject:
   m_ObjectHideFlags: 0

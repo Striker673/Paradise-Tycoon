@@ -102,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3310725567333344957}
   - component: {fileID: 5684689279443109709}
+  - component: {fileID: 8921536885747769492}
   m_Layer: 0
   m_Name: Restaurant_L1
   m_TagString: Untagged
@@ -138,3 +139,36 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &8921536885747769492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966640139111840954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: restaurant
+  displayName: "Re\u0161taur\xE1cia"
+  visual: {fileID: 5087329696068603902}
+  construction: {fileID: 0}
+  levels:
+  - cost: 0
+    capacity: 5
+    secondsPerRequest: 5
+    sprite: {fileID: -4831046472836381347, guid: 28977a707e64d9348befbc225855380b, type: 3}
+  - cost: 350
+    capacity: 7
+    secondsPerRequest: 4.25
+    sprite: {fileID: 752205209640448714, guid: 6ee808106b276264ab7d78bbb277691c, type: 3}
+  - cost: 700
+    capacity: 9
+    secondsPerRequest: 3.5
+    sprite: {fileID: -4943343097363526601, guid: 41c09ba843540ca42a3abe5c3b10af11, type: 3}
+  - cost: 1050
+    capacity: 11
+    secondsPerRequest: 2.75
+    sprite: {fileID: 2652959717880218330, guid: 320d28dfa452b994eb4f0d7beec02a95, type: 3}

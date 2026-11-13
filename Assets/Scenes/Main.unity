@@ -150,6 +150,7 @@ RectTransform:
   m_Children:
   - {fileID: 1190367108}
   - {fileID: 1586373181}
+  - {fileID: 1605540563611179314}
   m_Father: {fileID: 783378855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -545,6 +546,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4623067674118276153, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
   m_PrefabInstance: {fileID: 611301448}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &611301450 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8643987585878874873, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+--- !u!114 &611301451 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6043296387302352869, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+--- !u!114 &611301452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2267630650289066829, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+--- !u!114 &611301453 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6394130107901841278, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+--- !u!114 &611301454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6408785344430177322, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+--- !u!114 &611301455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7048454312908692880, guid: 7c8e1e3b08d80d74fab3f8cf72abd1e4, type: 3}
+  m_PrefabInstance: {fileID: 611301448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
 --- !u!1 &747334688
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +847,61 @@ Transform:
   - {fileID: 2039077606}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1176959572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176959573}
+  - component: {fileID: 1176959574}
+  m_Layer: 0
+  m_Name: BuildingUpgrades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176959573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176959572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2124422239}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176959574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176959572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4925e1506af364b4985ca40c98abad5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.BuildingUpgradeController
+  buildings:
+  - {fileID: 611301455}
+  - {fileID: 611301454}
+  - {fileID: 611301453}
+  - {fileID: 611301452}
+  - {fileID: 611301451}
+  - {fileID: 611301450}
+  worldCamera: {fileID: 1616628368}
+  panel: {fileID: 1605540563611179315}
+  hud: {fileID: 2039077607}
+  startingCoins: 1250
 --- !u!1 &1190367107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,8 +1358,126 @@ Transform:
   m_Children:
   - {fileID: 1616628371}
   - {fileID: 33222028}
+  - {fileID: 1176959573}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1605540563611179313
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 16856185}
+    m_Modifications:
+    - target: {fileID: 7916526854968511768, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_Name
+      value: BuildingUpgradePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916526854968511768, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+--- !u!224 &1605540563611179314 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8328952360642405017, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+  m_PrefabInstance: {fileID: 1605540563611179313}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1605540563611179315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1886570457568018117, guid: 843e0958d20a78e41a34c3819ee9adae, type: 3}
+  m_PrefabInstance: {fileID: 1605540563611179313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eff7e0886c790540a2cebd3fc6eae2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.BuildingUpgradePanel
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

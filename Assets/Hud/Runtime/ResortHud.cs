@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace ParadiseTycoon.Hud
 {
-    /// <summary>Demo HUD. Values are presentation data, not an economy implementation.</summary>
+    /// <summary>Resort HUD with presentation defaults for the standalone HUD scene.</summary>
     public sealed class ResortHud : MonoBehaviour
     {
         [SerializeField] TMPro.TMP_Text coinsLabel, energyLabel, resortLabel, statusLabel;
@@ -16,6 +16,7 @@ namespace ParadiseTycoon.Hud
         [SerializeField, Min(0)] int demoResortValue = 24500;
         PauseMenuController menu;
         HudLegacyPauseShortcut legacyPause;
+        public event System.Action UpgradeRequested;
         public Button PauseButton => pauseButton;
         public Button BuildButton => buildButton;
         public Button UpgradeButton => upgradeButton;
@@ -34,10 +35,9 @@ namespace ParadiseTycoon.Hud
 
         public void RefreshDemoValues()
         {
-            var format = CultureInfo.GetCultureInfo("sk-SK");
-            coinsLabel.text = Mathf.Max(0, demoCoins).ToString("N0", format);
+            SetCoins(demoCoins);
             energyLabel.text = Mathf.Clamp(demoEnergy, 0, Mathf.Max(1, demoMaxEnergy)) + " / " + Mathf.Max(1, demoMaxEnergy);
-            resortLabel.text = Mathf.Max(0, demoResortValue).ToString("N0", format);
+            resortLabel.text = Mathf.Max(0, demoResortValue).ToString("N0", CultureInfo.GetCultureInfo("sk-SK"));
             statusLabel.text = "Vitaj vo svojom rezorte!";
         }
 
@@ -63,7 +63,19 @@ namespace ParadiseTycoon.Hud
             if (PauseMenuController.Instance != null && PauseMenuController.Instance.isActiveAndEnabled) PauseMenuController.Instance.OpenPauseMenu();
         }
         void PreviewBuild() { statusLabel.text = "Stavanie • ukážka rozhrania"; PlayClick(); }
-        void PreviewUpgrade() { statusLabel.text = "Vylepšenia • ukážka rozhrania"; PlayClick(); }
+        public void SetCoins(int coins) =>
+            coinsLabel.text = Mathf.Max(0, coins).ToString("N0", CultureInfo.GetCultureInfo("sk-SK"));
+
+        public void SetStatus(string message) => statusLabel.text = message;
+
+        void PreviewUpgrade()
+        {
+            if (UpgradeRequested != null)
+                UpgradeRequested.Invoke();
+            else
+                SetStatus("Vylepšenia • ukážka rozhrania");
+            PlayClick();
+        }
         void PlayClick() { if (PauseMenuController.Instance != null) PauseMenuController.Instance.PlayClick(); }
 
         void RestoreLegacyButton()

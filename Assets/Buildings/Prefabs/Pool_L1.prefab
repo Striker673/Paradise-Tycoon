@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9051242996945752382}
   - component: {fileID: 1557039881605699738}
+  - component: {fileID: 2223125581500906519}
   m_Layer: 0
   m_Name: Pool_L1
   m_TagString: Untagged
@@ -47,6 +48,39 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &2223125581500906519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5364036710803345074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: pool
+  displayName: "Baz\xE9n"
+  visual: {fileID: 4237595114249987342}
+  construction: {fileID: 1944306990842665643}
+  levels:
+  - cost: 0
+    capacity: 6
+    secondsPerRequest: 5
+    sprite: {fileID: -1623081140505816924, guid: 88c6fd065649e324cb7ffcf841233d8a, type: 3}
+  - cost: 500
+    capacity: 8
+    secondsPerRequest: 4.25
+    sprite: {fileID: -3977806443823401233, guid: 865223e9a79dd2a4bb8c787ba207b8c6, type: 3}
+  - cost: 1000
+    capacity: 10
+    secondsPerRequest: 3.5
+    sprite: {fileID: -5562541449475129801, guid: 2a2cfb1b3564c314ba0a8ca1cc162b82, type: 3}
+  - cost: 1500
+    capacity: 12
+    secondsPerRequest: 2.75
+    sprite: {fileID: 2652336734861401088, guid: 21308917781a6b94c8e65c233741d78e, type: 3}
 --- !u!1 &5365770162431282073
 GameObject:
   m_ObjectHideFlags: 0

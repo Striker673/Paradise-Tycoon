@@ -194,6 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5679660772163824391}
   - component: {fileID: 1658286540386992619}
+  - component: {fileID: 7845300989325583468}
   m_Layer: 0
   m_Name: Spa_L1
   m_TagString: Untagged
@@ -231,3 +232,36 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &7845300989325583468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648674993886105135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: spa
+  displayName: Wellness
+  visual: {fileID: 4418613011560610628}
+  construction: {fileID: 1386964462835161862}
+  levels:
+  - cost: 0
+    capacity: 3
+    secondsPerRequest: 8
+    sprite: {fileID: -2318124162185631903, guid: fb6747d2f0748de4db85f78304ef8390, type: 3}
+  - cost: 600
+    capacity: 5
+    secondsPerRequest: 6.8
+    sprite: {fileID: 3272295487632688562, guid: a6c57f666fb66a546a06051b9fc97a5f, type: 3}
+  - cost: 1200
+    capacity: 7
+    secondsPerRequest: 5.6
+    sprite: {fileID: -7666592662207449234, guid: f8bf235585fada348ade6d9a7c2594e4, type: 3}
+  - cost: 1800
+    capacity: 9
+    secondsPerRequest: 4.3999996
+    sprite: {fileID: 7037380148377147988, guid: d67acfa1be1ceb94e8eb71be175ee00f, type: 3}

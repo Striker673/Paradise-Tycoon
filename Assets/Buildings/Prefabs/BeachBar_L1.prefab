@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3955502721541763651}
   - component: {fileID: 8927782707378363330}
+  - component: {fileID: 1891888943171692220}
   m_Layer: 0
   m_Name: BeachBar_L1
   m_TagString: Untagged
@@ -46,6 +47,39 @@ SortingGroup:
   m_SortingOrder: 0
   m_SortAtRoot: 0
   m_Sort3DAs2D: 0
+--- !u!114 &1891888943171692220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137911487182223741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bf54ca39afa1c459a4f07d2165de14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParadiseTycoon.Buildings.ResortBuilding
+  buildingId: beach_bar
+  displayName: "Pl\xE1\u017Eov\xFD bar"
+  visual: {fileID: 9209420650478324280}
+  construction: {fileID: 0}
+  levels:
+  - cost: 0
+    capacity: 4
+    secondsPerRequest: 4
+    sprite: {fileID: 1261338878242415346, guid: de8e9bb4beff9674c95cffaf425c9535, type: 3}
+  - cost: 300
+    capacity: 6
+    secondsPerRequest: 3.4
+    sprite: {fileID: 6700594144021948906, guid: 406f5e3cc0af6f84d98a283fd09cea3a, type: 3}
+  - cost: 600
+    capacity: 8
+    secondsPerRequest: 2.8
+    sprite: {fileID: 2663468236238249889, guid: b4af60c147ae8cc40b5fa38e3b426794, type: 3}
+  - cost: 900
+    capacity: 10
+    secondsPerRequest: 2.1999998
+    sprite: {fileID: -2463534327289806494, guid: 5e7c9d55e5dc64e4bbae30d290b6d903, type: 3}
 --- !u!1 &4178136244891275729
 GameObject:
   m_ObjectHideFlags: 0
